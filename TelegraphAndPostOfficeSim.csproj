@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>TelegraphAndPostOfficeSim</RootNamespace>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+	<OutputType>Library</OutputType>
+
+	<!-- stop complaining about uninitialised fields -->
+	<NoWarn>$(NoWarn);0649</NoWarn>
+  </PropertyGroup>
+
+  
+  
+	<ItemGroup>
+		<ProjectReference Include="D:\code\c#\raylib\Smoke\Library\Smoke.csproj"/>
+	</ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Include="./assets/**/*"></EmbeddedResource>
+	</ItemGroup>
+</Project>

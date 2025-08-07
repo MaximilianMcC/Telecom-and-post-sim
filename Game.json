@@ -1,0 +1,33 @@
+﻿{
+	"Namespace": "TelegraphAndPostOfficeSim",
+	"DisplayName": "Telegraph and post office simulator",
+
+	"RootPath": "D:/code/c#/smoke/Telecom-and-post-sim",
+
+	"Version": "1.0.0",
+	"Restart": 0,
+
+	"WindowSize": {
+		"X": 500,
+		"Y": 500
+	},
+
+	"Prefabs": [], 
+	
+	"CurrentSceneDisplayName": "main",
+	"Scenes": [
+		{
+			"DisplayName": "main",
+			"Things": [
+				{
+					"DisplayName": "Test",
+					"Components": [
+						{
+							"$type": "Test, TelegraphAndPostOfficeSim"
+						}
+					]
+				}
+			]
+		}
+	]
+}

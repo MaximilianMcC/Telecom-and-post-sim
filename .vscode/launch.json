@@ -1,0 +1,16 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Debug Smoke Project",
+			"type": "coreclr",
+			"request": "launch",
+			"preLaunchTask": "Build Smoke Project",
+			"program": "D:\\code\\c#\\raylib\\Smoke\\Runner\\bin\\Debug\\net8.0\\Runner.exe",
+			"cwd": "${workspaceFolder}",
+			"console": "internalConsole",
+
+			"args": ["./Game.json"]
+		}
+	]
+}
